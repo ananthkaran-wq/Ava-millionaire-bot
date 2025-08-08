@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # Your bot token
-BOT_TOKEN = "8207173667:AAH3PN2wrVAB1TKqjsT6VgZZNhT-PIiCvIs"
+os.environ['BOT_TOKEN']
 CHAT_ID = "979707505"  # Replace with your Telegram user ID
 
 bot = telebot.TeleBot(BOT_TOKEN)
